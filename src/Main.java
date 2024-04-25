@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 // Main class to run the game
 public class Main {
+    // need to add comments
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

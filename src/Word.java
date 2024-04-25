@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 // Word class to check guesses against the secret word
 class Word {
+    // need to add comments
     private String secretWord;
 
     // Constructor to set the secret word
