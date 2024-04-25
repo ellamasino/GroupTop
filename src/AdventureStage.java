@@ -2,6 +2,7 @@ public class AdventureStage {
     private String description;
     private String[] choices;
 
+    //#
     public AdventureStage(String description, String[] choices) {
         this.description = description;
         this.choices = choices;
