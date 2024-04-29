@@ -1,8 +1,14 @@
+/**********************************************************************
+ * @file Word.java
+ * @author LANDON ELLIS, ELLA MASINO, BRADEN ROOS
+ * @date: April 15, 2024
+ * @acknowledgement: Help from Dr. Pauca in checking for letters in guess word
+ ***********************************************************************/
+
 import java.util.Scanner;
 
 // Word class to check guesses against the secret word
 class Word {
-    // need to add comments
     private String secretWord;
 
     // Constructor to set the secret word
@@ -10,7 +16,11 @@ class Word {
         secretWord = word.toLowerCase();
     }
 
-    // Method to check the guess against the secret word
+    /**
+     * Takes user's guess and checks it against the secret word after setting it to lowercase
+     * @param  guess : String, takes user guess as input for method
+     * @return result, which is then printed to the console in the ideal format
+     */
     public String checkGuess(String guess) {
         guess = guess.toLowerCase();
         String result = ""; // Start with an empty string for the result
